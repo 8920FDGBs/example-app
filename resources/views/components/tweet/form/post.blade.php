@@ -10,7 +10,7 @@
             </p>
 
             @error('tweet')
-                <x-alert class="error">{{ $message }}</x-alert>
+                <x-alert.error>{{ $message }}</x-alert.error>
             @enderror
 
             <div class="flex flex-wrap justify-end">
