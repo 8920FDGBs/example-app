@@ -6,7 +6,7 @@
 
 昨日は件のつぶやきが追加されましたよ！最新のつぶやきを見に行きましょう。
 
-@component('mail:button', ['url' => route('tweet.index')])
+@component('mail::button', ['url' => route('tweet.index')])
     つぶやきを見に行く
 @endcomponent
 
